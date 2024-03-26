@@ -117,6 +117,11 @@ dependencies {
 
     //desugar jdk
     implementation(libs.desugar.compose)
+
+    //maxkeppeler dialogs
+    implementation(libs.sheet.core)
+    implementation(libs.sheet.calendar)
+    implementation(libs.sheet.clock)
 }
 kapt {
     correctErrorTypes = true

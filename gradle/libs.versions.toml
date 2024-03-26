@@ -28,6 +28,7 @@ messageBar = "1.0.8"
 oneTapCompose = "1.0.12"
 desugar = "2.0.4"
 ksp = "1.9.22-1.0.18"
+maxkeppeler = "1.0.2"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -47,7 +48,7 @@ androidx-material3 = { group = "androidx.compose.material3", name = "material3" 
 androidx-navigation = { group = "androidx.navigation", name = "navigation-compose", version.ref = "composeNavigation" }
 google-firebase-bom = { group = "com.google.firebase", name = "firebase-bom", version.ref = "firebaseBom" }
 firebase-auth = { group = "com.google.firebase", name = "firebase-auth" }
-firebase-storage = { group = "com.google.firebase", name = "firebase-storage"}
+firebase-storage = { group = "com.google.firebase", name = "firebase-storage" }
 androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
 androidx-room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
 androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
@@ -55,7 +56,7 @@ androidx-lifecycle-runtime-compose = { group = "androidx.lifecycle", name = "lif
 androidx-core-splashscreen = { group = "androidx.core", name = "core-splashscreen", version.ref = "coreSplashscreen" }
 coil-compose = { group = "io.coil-kt", name = "coil-compose", version.ref = "coilCompose" }
 accompanist-pager = { group = "com.google.accompanist", name = "accompanist-pager", version.ref = "accompanistPager" }
-realm-kotlin = { group = "io.realm.kotlin", name ="library-sync", version.ref = "realm" }
+realm-kotlin = { group = "io.realm.kotlin", name = "library-sync", version.ref = "realm" }
 kotlin-coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "coroutines" }
 hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt" }
 hilt-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hilt" }
@@ -65,11 +66,14 @@ date-picker = { group = "io.github.vanpra.compose-material-dialogs", name = "cor
 message-bar = { group = "com.github.stevdza-san", name = "MessageBarCompose", version.ref = "messageBar" }
 one-tap = { group = "com.github.stevdza-san", name = "OneTapCompose", version.ref = "oneTapCompose" }
 desugar-compose = { group = "com.android.tools", name = "desugar_jdk_libs", version.ref = "desugar" }
+sheet-core = { group = "com.maxkeppeler.sheets-compose-dialogs", name = "core", version.ref = "maxkeppeler" }
+sheet-calendar = { group = "com.maxkeppeler.sheets-compose-dialogs", name = "calendar", version.ref = "maxkeppeler" }
+sheet-clock = { group = "com.maxkeppeler.sheets-compose-dialogs", name = "clock", version.ref = "maxkeppeler" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
 jetbrainsKotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
-realmPlugin = { id = "io.realm.kotlin", version.ref = "realm"}
+realmPlugin = { id = "io.realm.kotlin", version.ref = "realm" }
 jetbrainsKotlinKapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlin" }
 hilt = { id = "com.google.dagger.hilt.android", version.ref = "dagger" }
 gms = { id = "com.google.gms.google-services", version.ref = "gmsPlugin" }
